@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "push-notification-testing",
+    "public": "dist/angular-push-notification",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
